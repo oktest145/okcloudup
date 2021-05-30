@@ -32,7 +32,7 @@
             "required": false
         },
         "GOFILE_API": {
-            "description" : "Gofile api"
+            "description": "Gofile api"
             "required" : false 
         },
         "LOG_CHANNEL": {
