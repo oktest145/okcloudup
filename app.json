@@ -33,7 +33,7 @@
         },
         "GOFILE_API": {
             "description": "Gofile api"
-            "required" : false 
+            "required": false 
         },
         "LOG_CHANNEL": {
             "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
