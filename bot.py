@@ -24,9 +24,9 @@ async def start(bot, cmd):
                          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer",
                                                                                   url="https://t.me/AbirHasan2005"),
                                                              InlineKeyboardButton("Support Group",
-                                                                                  url="https://t.me/linux_repo")], [
+                                                                                  url="https://t.me/ironman_cloud_support")], [
                                                                 InlineKeyboardButton("Bots Channel",
-                                                                                     url="https://t.me/Discovery_Updates")],
+                                                                                     url="https://t.me/ironman_cloud")],
                                                             [InlineKeyboardButton("Bot's Source Code",
                                                                                   url="https://github.com/AbirHasan2005/Cloud-UPManager-Bot")]]))
 
@@ -39,7 +39,7 @@ async def help(bot, cmd):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
+                [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support"),
                  InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
                 [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                 [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
@@ -87,7 +87,7 @@ async def answer(bot, query: InlineQuery):
                 thumb_url="https://i.imgur.com/6jZsMYG.png",
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
+                        [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support"),
                          InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
                         [InlineKeyboardButton("Delete GoFile.io File", switch_inline_query_current_chat="!godel ")],
                         [InlineKeyboardButton("Delete Streamtape File (Admin Only)",
@@ -123,8 +123,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
                         ]
                     )
                 )
@@ -157,7 +157,7 @@ async def answer(bot, query: InlineQuery):
                                 title="!stdel [file_link]",
                                 description="Put File Link to Delete Streamtape File!",
                                 input_message_content=InputTextMessageContent(
-                                    message_text="This for Deleting Streamtape File via File Link.\n\n**Format:** `@Cloud_UPManager_Bot !stdel `__[file_link]__",
+                                    message_text="This for Deleting Streamtape File via File Link.\n\n**Format:** `@imc_upbot !stdel `__[file_link]__",
                                     parse_mode="Markdown",
                                     disable_web_page_preview=True
                                 ),
@@ -203,7 +203,7 @@ async def answer(bot, query: InlineQuery):
                                              input_message_content=InputTextMessageContent(
                                                  message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group",
-                                                                                                      url="https://t.me/linux_repo")]]))
+                                                                                                      url="https://t.me/ironman_cloud_support")]]))
                 )
 
         try:
@@ -296,7 +296,7 @@ async def answer(bot, query: InlineQuery):
                                          input_message_content=InputTextMessageContent(
                                              message_text=f"Something Went Wrong!\n\n**Error:** `{err}`"),
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]))
+                                             [[InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")]]))
             )
 
         try:
@@ -322,8 +322,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
                         ]
                     )
                 )
@@ -419,8 +419,8 @@ async def answer(bot, query: InlineQuery):
                     ),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")],
-                            [InlineKeyboardButton("Developer", url="https://t.me/linux_repo")]
+                            [InlineKeyboardButton("Support Group", url="https://t.me/ironman_cloud_support")],
+                            [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
                         ]
                     )
                 )
@@ -439,7 +439,7 @@ async def answer(bot, query: InlineQuery):
                     title="!strmdel [token]",
                     description="Put Streamtape Remote Token to remove Remote from Streamtape Account!",
                     input_message_content=InputTextMessageContent(
-                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@Cloud_UPManager_Bot !strmdel `__[token]__",
+                        message_text="This for Removing Remote URL from Streamtape Account via Remote Token.\n\n**Format:** `@imc_upbot !strmdel `__[token]__",
                         parse_mode="Markdown",
                         disable_web_page_preview=True
                     ),
